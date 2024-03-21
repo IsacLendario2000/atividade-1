@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <header><h1><center>Sistema de Paginação</center></h1></header>
+    </meta>
+    <style>
+        ul.pagination{
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            align-items: center;
+            display: flex;
+           
+        }
+
+        ul.pagination li {display: inline;}
+        ul.pagination li a{
+            color: black;
+            float: left;
+            padding: 16px 24px;
+            text-decoration: none;
+            transition: background-color .3s;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+        }
+
+        ul.pagination li a.active{
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid 4CAF50;
+        }
+
+        ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+    </style>
+    </head>
+    <body>
+        <h2><center>Colocar margens em uma paginação no site</center></h2>
+        <ul class="pagination">
+            <li><a href="#"><<</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">>></a></li>
+        </ul>
+        <style>
+            li{
+               float: right;
+                
+            }
+            body{
+                background-color: aquamarine;
+                background-image: url(https://www.pngall.com/wp-content/uploads/4/World-Wide-Web-PNG-Picture.png);
+                background-repeat: no-repeat;
+                 background-position: center center;
+            }
+        </style>
+    </body>
+</html>
